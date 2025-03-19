@@ -1,0 +1,43 @@
+.header {
+    background-color: #005ea5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+    position: relative;
+    left: -490%;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .header-text p {
+    margin: 0;
+    font-size: 1rem;
+    color: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header-text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header-text p {
+      font-size: 0.9rem;
+    }
+  }

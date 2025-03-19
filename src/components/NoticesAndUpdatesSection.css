@@ -1,0 +1,52 @@
+.notices-updates {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.notices h2, .steps-to-apply h2, .associated-links h2, .value-added-services h2, 
+.passport-service-index h2, .case-studies h3, .safe-migration h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.notices table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.notices table th, .notices table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.vertical-parallel-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.vertical-parallel-layout div {
+  flex: 1;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.highlight-text {
+  color: red;
+}
